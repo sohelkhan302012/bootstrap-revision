@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Krub", sans-serif;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+:root {
+  --Midnightblue: #091242;
+  --Whitesmoke: #f4f4f4;
+  --yellow-gradient: linear-gradient(
+    95deg,
+    #ffb629 -1.19%,
+    #ffda56 57.78%,
+    #ffd7a6 115.08%
+  );
+  --btn-text: #23212a;
+  --black-50: rgba(4, 28, 55, 0.5);
+  --paragraph: #666c89;
+  --text-color: #1c1f35;
+  --gray-bg-5: rgba(232, 232, 232, 0.5);
+  --img-bg-gra: linear-gradient(
+    360deg,
+    #091242 -11.11%,
+    rgba(9, 18, 66, 0) 90.28%
+  );
+  --header-bg:rgba(9, 18, 66, 0.25);
+  --white:#ffffff; 
+}
+.primary-col {
+  background-color: var(--Midnightblue);
+}
+.header-bg{
+    background: var(--Midnightblue);
+}
+.black-5 {
+  background: var(--black-50);
+}
+.paragraph-col {
+  color: var(--paragraph);
+}
+.gray {
+  background-color: var(--Whitesmoke);
+}
+.yellow-gra {
+  background: var(--yellow-gradient);
+}
+.text-col {
+  color: var(--text-color);
+}
+.btn-tex-col {
+  color: var(--btn-text);
+}
+.black-gra {
+  background: var(--img-bg-gra);
+}
+.gray-bg {
+  background-color: var(--gray-bg-5);
+}
+.gap-39{
+    column-gap: 39px;
+}
+.mt-58{
+    margin-top:-58px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+.btn-hov-pri:hover{
+background-color: var(--Midnightblue) !important;
+color:var(--white);
+}
+.bor-left-1{
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bor-left-4{
+    border-left: 4px solid yellow;
+}
+.bor-bottom-2{
+    border-bottom: 2px solid transparent;
+}
+.bor-bottom-2:hover{
+    border-bottom-color: white;
+}
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-img{
+    background-image:url(../images/hero-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.h1{
+    font-size: 40px;
+}
+
+@media (min-width:576px) {
+    
+}
+@media (min-width:768px) {
+    .header-bg{
+        background: var(--header-bg);
+    }
+    .h1{
+        font-size: 60px;
+    }
+}
+@media (min-width:992px) {
+    .gap-30{
+        column-gap: 30px;
+    }
+    
+}
+@media (min-width:1140px) {
+    
+}
